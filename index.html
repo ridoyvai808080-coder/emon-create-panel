@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b0b0f">
+<title>EMON VIP DIP — Download</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <div class="logo"><b>EMON</b><span> VIP DIP</span></div>
+  <a class="help" href="https://wa.me/8801344839207" target="_blank" rel="noopener">Customer Service</a>
+</header>
+
+<main class="container">
+<section class="hero card">
+  <div class="icon">E</div>
+  <div class="badge">OFFICIAL APP DOWNLOAD</div>
+  <h1>EMON VIP DIP</h1>
+  <p>অ্যাপটি ডাউনলোড করতে নিচের verification ধাপগুলো সম্পূর্ণ করুন।</p>
+
+  <div class="step active" id="s1">
+    <div class="num">01</div>
+    <div class="body">
+      <h2>প্রথম Password</h2>
+      <p>অ্যাক্সেস চালু করতে password দিন।</p>
+      <div class="inputrow"><input id="p1" type="password" placeholder="Password"><button onclick="p1()">Verify</button></div>
+      <small id="m1"></small>
+    </div>
+  </div>
+
+  <div class="ad card-inner video-gate locked" id="video1">
+    <span>VIDEO</span>
+    <strong>ভিডিও ১ দেখুন</strong>
+    <p>নিচের TikTok লিংকে গিয়ে ভিডিওটি দেখুন। ভিডিও পেজ খুলে না আসা পর্যন্ত পরের ধাপ চালু হবে না।</p>
+    <a class="video-btn" id="videoLink1" href="https://vt.tiktok.com/ZSbQBMNr4/" target="_blank" rel="noopener noreferrer">ভিডিও ১ খুলুন</a>
+    <button class="wide" id="videoDone1" disabled onclick="completeVideo(1)">ভিডিও দেখেছি</button>
+    <small id="videoMsg1">প্রথমে ভিডিওর লিংকে চাপ দিন।</small>
+  </div>
+
+  <div class="step locked" id="s2">
+    <div class="num">02</div>
+    <div class="body">
+      <h2>Social Follow</h2>
+      <p>Facebook ও TikTok খুলে Follow করুন।</p>
+      <div class="socials">
+        <a id="fb" href="https://www.facebook.com/share/1JJVGS4Gq9/" target="_blank" rel="noopener">Facebook</a>
+        <a id="tk" href="https://www.tiktok.com/@ffidsaler1587?_r=1&_t=ZS-9AIcXiMZ3X3" target="_blank" rel="noopener">TikTok</a>
+      </div>
+      <button id="socialDone" class="wide" disabled onclick="socialDone()">আমি Follow করেছি</button>
+      <small id="m2"></small>
+    </div>
+  </div>
+
+  <div class="step locked" id="s3">
+    <div class="num">03</div>
+    <div class="body">
+      <h2>দ্বিতীয় Password</h2>
+      <p>পরবর্তী ধাপে যেতে password দিন।</p>
+      <div class="inputrow"><input id="p2" type="password" placeholder="Password"><button id="p2b" disabled onclick="p2()">Verify</button></div>
+      <small id="m3"></small>
+    </div>
+  </div>
+
+  <div class="ad card-inner video-gate locked" id="video2">
+    <span>VIDEO</span>
+    <strong>ভিডিও ২ দেখুন</strong>
+    <p>নিচের TikTok লিংকে গিয়ে ভিডিওটি দেখুন। ভিডিও পেজ খুলে না আসা পর্যন্ত পরের ধাপ চালু হবে না।</p>
+    <a class="video-btn" id="videoLink2" href="https://vt.tiktok.com/ZSbQBmhma/" target="_blank" rel="noopener noreferrer">ভিডিও ২ খুলুন</a>
+    <button class="wide" id="videoDone2" disabled onclick="completeVideo(2)">ভিডিও দেখেছি</button>
+    <small id="videoMsg2">প্রথমে ভিডিওর লিংকে চাপ দিন।</small>
+  </div>
+
+  <div class="step locked" id="s4">
+    <div class="num">04</div>
+    <div class="body">
+      <h2>Gmail অথবা Phone</h2>
+      <p>একটি Gmail address অথবা phone number দিন। <b>কোনো Gmail password দেবেন না।</b></p>
+      <div class="inputrow"><input id="idn" type="text" placeholder="Gmail বা Phone Number"><button id="idb" disabled onclick="verify()">Continue</button></div>
+      <small id="m4"></small>
+    </div>
+  </div>
+
+  <div class="download locked" id="dl">
+    <div class="check">✓</div>
+    <h2>Download Ready</h2>
+    <p>সব verification সম্পন্ন হয়েছে।</p>
+    <a class="downloadbtn" href="EMON-VIP-DIP.apk" download>Download EMON VIP DIP APK</a>
+    <small>APK: EMON VIP DIP location panel</small>
+  </div>
+</section>
+
+<section class="support card">
+  <h2>Customer Service</h2>
+  <p>WhatsApp / IMO: <a href="tel:01344839207">01344839207</a></p>
+  <a class="wa" href="https://wa.me/8801344839207" target="_blank" rel="noopener">WhatsApp Support</a>
+</section>
+</main>
+<footer>© <span id="year"></span> EMON VIP DIP</footer>
+<script src="script.js"></script>
+</body>
+</html>
